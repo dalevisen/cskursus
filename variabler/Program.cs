@@ -10,13 +10,16 @@ namespace variabler
     {
         static void Main(string[] args)
         {
-            
-            {
-                int[] mløn = { 1, 2 };
-                               
-                Console.WriteLine(mløn[0]);
-                Console.ReadKey();
 
+            {
+                string fornavn = "mikkel";
+                string efternavn = "Cronberg";
+                Console.WriteLine(fornavn + " " + efternavn);
+                Console.WriteLine(fornavn.ToUpper() + " " + efternavn);
+                Console.WriteLine(efternavn.Substring(1,4));
+                
+                
+                Console.ReadLine();
             }
         }
     }
